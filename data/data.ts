@@ -2,6 +2,7 @@ import { GiSpellBook } from "react-icons/gi";
 import { FaRegHandshake } from "react-icons/fa";
 import { IoIosPeople } from "react-icons/io";
 import { FaPeopleRoof } from "react-icons/fa6";
+import { FcCollaboration } from "react-icons/fc";
 
 import { createElement } from "react";
 
@@ -58,10 +59,17 @@ export const programs = [
   },
   {
     id: 8,
-    title: "Media house",
+    title: "Multimedia Outreach",
     icon: createElement(GiSpellBook, { size: 60, color: "green" }),
     description:
-      "This is a stragetegy is to use all media platform to deseminate information about islam. this include  old media platform such as radio and print and the new media such as social media ,website.",
+      "A key component of our strategy is to leverage both traditional and digital media to share authentic Islamic knowledge. This includes established platforms like radio and print, alongside contemporary channels such as social media, websites, and other online tools, to reach diverse audiences effectively.",
+  },
+  {
+    id: 9,
+    title: "Caring for the Vulnerable",
+    icon: createElement(GiSpellBook, { size: 60, color: "green" }),
+    description:
+      "Visiting the sick and those in prisons is a key part of our program. It is a way to show compassion and care for those who are vulnerable in our society. We believe that by visiting the sick and those in prisons, we can help to uplift their spirits and provide them with the support they need.",
   },
 ];
 
@@ -71,28 +79,28 @@ export const articles = [
     title: "Knowledge",
     icon: createElement(GiSpellBook, { size: 60, color: "green" }),
     description:
-      "Knowledge is at the heart of every endeavour we do and is the one that guide our mission and vision .Equipping muslim community with authentic infomation to implement islamic values in daily life and to have tools to disseminate islam knowledge  to wider community is the cornerstone of our mission.",
+      "Knowledge(Quran & Sunnah) lies at the heart of all our endeavours, guiding both our mission and vision. Equipping the Muslim community with authentic information empowers individuals to live by Islamic values in their daily lives. Furthermore, providing the tools to share this knowledge with the wider society is a cornerstone of our mission.",
   },
   {
     id: 2,
     title: "Collaboration",
-    icon: createElement(FaRegHandshake, { size: 60, color: "green" }),
+    icon: createElement(FcCollaboration, { size: 60, color: "green" }),
     description:
-      "Creating Collaborations and Connections with wider society and organisation such as  government departments ,schools and other institutions to disseminate and autheticate information  about Islam so that when policy and decision are made, they are based on accurate information.",
+      "Fostering collaborations and connections with broader society,including government departments, schools, and other institutions is essential to disseminate and authenticate  information about Islam. This ensures that policies and decisions are made based on informed and accurate information .",
   },
   {
     id: 3,
     title: " Socialization",
     icon: createElement(IoIosPeople, { size: 60, color: "green" }),
     description:
-      "Social events provide an opportunity for muslim community to meet and connect with each other to build and maintain strong bonds of brotherhood and sitsterhood among themeselves.These may include but not limited to eid festivites,marriages celebrations and funerals.",
+      "Social gatherings provide opportunities for social interactions and community building. They play a vital role in bringing the Muslim community together, helping to build and sustain strong bonds of brotherhood and sisterhood. Such events include, but are not limited to, Eid celebrations, weddings, and funerals.",
   },
   {
     id: 4,
     title: " Safety Nets",
     icon: createElement(FaPeopleRoof, { size: 60, color: "green" }),
     description:
-      "Government provides various social safety nets, such as old age pension, poverty alleviation, and child support grants, but still remain specific need which should be tailored for the islamic comunity. Marriage counselling ,divorce, inheritance and family disputes are specific therefore islamic issues it best handled by islamic institutions.",
+      "While the government provides various social safety nets—such as old age pensions, poverty alleviation programs,there remain specific needs within the Muslim community that require tailored solutions. Matters such as marriage counselling, divorce, inheritance, and family disputes are deeply rooted in Islamic principles and are best addressed through Islamic institutions.",
   },
 ];
 
@@ -102,20 +110,20 @@ export const bonds = [
     image: "/pictures/gallery/brotherhood.jpg",
     title: "Nurturing  Brotherhood and Sisterhood",
     description:
-      "One of the conerstones of a strong community is unity. Allah instucts us to be united.Narturing  brotherhood and sisterhood and creating an environment of love,trust and working together .",
+      "One of the conerstones of a strong community is unity. Allah instucts us to be united.Narturing  brotherhood and sisterhood through regular interations in social events and working together on community projects will fostering a sense of love,trust.",
   },
   {
     id: 2,
     image: "/pictures/gallery/islamicMarriage.jpg",
     title: "Building community through Islamic Marriage",
     description:
-      "The sunnah of the Prophet Muhammad (PBUH) is to marry young.Encouraging young people to marry early is a way to build a strong community based on good morals and good values. It is also a way to prevention them from falling into the ills of the modern society",
+      "It is the sunnah to have early marriages.Creating an environment for ease of getting married especially among young people is vital. It helps build a strong, morally grounded community. It also serves as a preventative measure, protecting the youth from the moral challenges and harmful influences of modern society.",
   },
   {
     id: 3,
     image: "/pictures/gallery/culture.jpg",
     title: "Converges of Islam and Batswana Culture",
     description:
-      "One of the key values is to understand that islam did not come to erase culture but to perfect it by allowing what is good and refraining from what contradicts Islamic values.  this is more essential beacasuse those who converts come from non-islamic background and continue to interact with non-muslims.",
+      "A fundamental value in Islam is the recognition that it does not seek to eliminate culture, but rather to refine it, preserving what aligns with Islamic ethics and setting aside what conflicts with them. This principle is particularly vital for new Muslims, who often come from non-Islamic background .",
   },
 ];

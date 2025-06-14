@@ -16,14 +16,13 @@ export default function Home() {
         <MainSection />
       </section>
       <section>
-        {" "}
         <Subsection />
       </section>
       <Section />
       <article>
         <Article />
       </article>
-      <section></section>
+
       <section>
         <Patners />
       </section>

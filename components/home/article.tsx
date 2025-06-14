@@ -12,9 +12,10 @@ export default function Article() {
               </h1>
 
               <p className="text-lg m-5">
-                Gaborone native muslim community took an opportunity on the day
-                of eid-ul-fitr to have an outing at Gaborone game reserve. It
-                was a day of celebration, reflection and gratitude.
+                The native Muslim community of Gaborone took the opportunity to
+                celebrate Eid-ul-Fitr with an outing at the Gaborone Game
+                Reserve. It was a joyful day marked by celebration, reflection,
+                and gratitude.
               </p>
             </div>
           </div>
@@ -36,13 +37,17 @@ export default function Article() {
               Merging islamic knowledge & Sports
             </h1>
             <p className="text-lg m-5">
-              Sports and Games are effective activities in caltivating and
-              Fostering love and friendly relation especially among the
-              youth.Using sports and games to Create a vibrant learning
-              enviroment for islamic knowledge and an alternative to illicit
-              activities such as drug use. an illustration of Teaching youth the
-              principle of protecting each other against evil using sports and
-              games.
+              Sports and games are powerful tools for cultivating friendship,
+              unity, and a spirit of cooperation especially among the youth. By
+              integrating Islamic values into these activities, we can create a
+              vibrant and engaging learning environment that not only promotes
+              physical well-being but also serves as a positive alternative to
+              harmful behaviors such as drug use. Through sports, we can teach
+              young people key Islamic principles, such as protecting one
+              another from harm, supporting each other in righteousness, and
+              working together as a team. These activities become a practical
+              and enjoyable way to instill discipline, moral awareness, and a
+              sense of brotherhood rooted in faith.
             </p>
           </div>
           <div className="m-10">

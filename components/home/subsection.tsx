@@ -1,64 +1,73 @@
 import React from "react";
+import { IoIosPeople } from "react-icons/io";
+import { FaPeopleGroup } from "react-icons/fa6";
+import { FaRegHandshake } from "react-icons/fa";
+import { CgCommunity } from "react-icons/cg";
+import { FaUsersGear } from "react-icons/fa6";
 
 export default function Subsection() {
   return (
-    <div className=" h-[150rem] md:h-[100rem] lg:h-[70rem]  bg-radial-[at_40%_50%] from-lime-100 via-red-50 to-green-100 to-90% curved-bottom-edges  ">
-      <div className=" m-10 lg:m-auto max-w-full lg:w-3/4 ">
+    <div className=" h-[155rem] md:h-[100rem] lg:h-[70rem]  bg-radial-[at_40%_50%] from-lime-100 via-red-50 to-green-100 to-90% curved-bottom-edges   ">
+      <div className=" m-10 lg:m-auto max-w-full lg:w-3/4  ">
         <h1 className="text-3xl font-bold  text-center pt-20">
           How are we transforming the future of Islam in Botswana
         </h1>
         <p className="text-2xl mt-10 ">
-          Since the first muslims set foot in Botswana around the 1960, No
-          concerted effort has been made to to rigorious spread islam to native
-          Batswana.As result the native muslim community is minuscule.It is
-          estimated that Botswana whole muslim commnity in is about twenty
-          thousand out of population of 2 million. Islam in Botswana is largesly
-          dominated by people of indian decent who are the decendents of the
-          muslim who come to Botswana in the 60's and the expariates
-          community.The blacks muslims are generally foreigners,mostly
-          expariates and few native Botswana. Due this fact Islam is perceived
-          as an religion specific to indian. It remains largely misunderstood by
-          the majority of Batswana. The islamic institutions such as mosques and
-          associations such as Botswana muslim Association are managed
-          ,run,dominated by people of indian decent at the experiance of The
-          native Batswana muslim community. Botswana dawah unit is a reponse to
-          no-representation of the native muslims and attend to the specific
-          need of the communinity.
+          Since the first Muslims set foot in Botswana around the 1960s, there
+          has been no sustained, coordinated effort to actively spread Islam
+          among the native Batswana population. As a result, the indigenous
+          Muslim community remains miniscule. It is estimated that the entire
+          Muslim population in Botswana is around 20,000 out of a national
+          population of approximately 2 million and native Batswana are
+          estimated to be around 1000. Islam in Botswana has largely been shaped
+          and maintained by people of Indian descent—descendants of the early
+          Muslim migrants from the 1960s as well as expatriate communities.
+          Among Black Muslims in Botswana, many are foreign nationals, with only
+          a small number being native Batswana. This demographic reality has
+          contributed to a widespread perception that Islam is an 'Indian
+          religion,' rather than a universal faith. Consequently, Islam remains
+          largely misunderstood by the majority of Batswana.
         </p>
       </div>
       <div className="flex flex-col lg:flex-row max-w-full m-5  justify-center">
         <div className="   bg-white shadow-2xl rounded-md m-5 flex-1/2">
+          <FaUsersGear size={60} color="green" className="m-auto" />
           <h1 className="text-center text-2xl m-5">
             Structured Dawah programs
           </h1>
           <p className="m-3">
-            Islam is the is fastest growing religion globally but in Botswana
-            lacks behind. A deleberate structured dawah programs is critical to
-            make an impact.
+            While Islam continues to be the fastest-growing religion worldwide,
+            Botswana has not experienced similar growth. This highlights the
+            urgent need for a well-planned, strategic dawah initiative that can
+            make a meaningful impact through education, outreach, and engagement
+            tailored to the local context
           </p>
         </div>
         <div className="   bg-white shadow-2xl rounded-md m-5 flex-1/2">
+          <IoIosPeople size={60} color="green" className="m-auto" />
           <h1 className="text-center text-2xl m-5">Community Building</h1>
           <p className="m-5">
-            One of the challenging problems for reverts or convets is that once
-            they have become into the fold of islam resources to learn practice
-            Islam are contrained. A helping and guiding hand"(tshipidi)" is
-            critical in the new path. Having a community to absorb new muslims
-            and giving support.
+            For many reverts, embracing Islam is only the beginning of a long
+            journey. Unfortunately, once they enter the fold of Islam, they
+            often encounter a lack of structured support, guidance, and
+            accessible learning resources. A guiding hand—tshipidi—is essential
+            to help them navigate this path with confidence and consistency.
+            Building an organized and inclusive community that offers mentorship
+            and emotional support is vital for the successful integration and
+            growth of new Muslims
           </p>
         </div>
 
         <div className=" bg-white shadow-2xl rounded-md m-5 flex-1/2">
+          <FaRegHandshake size={60} color="green" className="m-auto" />
           <h1 className="text-center text-2xl m-5">Social Cohesion</h1>
           <p className="m-3">
-            Many people who convert to islam comme from a non-islamic background
-            and families.they will continue to live and interact with non
-            muslims on daily basis.It is therefore important to have islamic
-            programs that is geared to create and understanding and coexistance
-            with larger society. Many social acitivities such as marriages and
-            funerals between a muslim and non-muslim family members pose a
-            challenging an programs to proactively address issues before thay
-            arise is one of the tools Dawah unit offers
+            Many people who embrace Islam come from non-Islamic backgrounds and
+            families. As such, they continue to live and interact daily with
+            non-Muslims in their homes, workplaces, and communities. It is
+            therefore essential to develop Islamic programs that promote mutual
+            understanding, peaceful coexistence, and respectful engagement with
+            the broader society.
           </p>
         </div>
       </div>

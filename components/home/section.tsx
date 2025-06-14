@@ -20,8 +20,10 @@ export default function Section() {
             >
               <img src={bond.image} height={300} width={300} className="" />
               <CardTitle>{bond.title}</CardTitle>
-              <CardDescription></CardDescription>
-              <CardContent>{bond.description}</CardContent>
+              <CardDescription className="mx-5">
+                {bond.description}
+              </CardDescription>
+              <CardContent></CardContent>
             </Card>
           ))}
         </div>
