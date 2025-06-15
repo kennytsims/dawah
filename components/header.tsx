@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Header() {
   return (
-    <div className="flex justify-center items-center  h-screen  lg:h-[40rem] sm:h-screen bg-[url(/pictures/light.png)] bg-cover bg-no-repeat bg-center max-w-fullmt-10">
+    <div className="flex justify-center items-center  h-screen  lg:h-[40rem] sm:h-screen bg-[url(https://github.com/kennytsims/dawah/pictures/light.png)] bg-cover bg-no-repeat bg-center max-w-fullmt-10">
       <div className="h-[30rem] mt-10">
         <h1 className="text-4xl font-bold text-white text-center">
           Illuminating Every Heart with word of Allah | Islam

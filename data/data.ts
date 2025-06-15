@@ -107,21 +107,21 @@ export const articles = [
 export const bonds = [
   {
     id: 1,
-    image: "/pictures/gallery/brotherhood.jpg",
+    image: "./pictures/gallery/brotherhood.jpg",
     title: "Nurturing  Brotherhood and Sisterhood",
     description:
       "One of the conerstones of a strong community is unity. Allah instucts us to be united.Narturing  brotherhood and sisterhood through regular interations in social events and working together on community projects will fostering a sense of love,trust.",
   },
   {
     id: 2,
-    image: "/pictures/gallery/islamicMarriage.jpg",
+    image: "./pictures/gallery/islamicMarriage.jpg",
     title: "Building community through Islamic Marriage",
     description:
       "It is the sunnah to have early marriages.Creating an environment for ease of getting married especially among young people is vital. It helps build a strong, morally grounded community. It also serves as a preventative measure, protecting the youth from the moral challenges and harmful influences of modern society.",
   },
   {
     id: 3,
-    image: "/pictures/gallery/culture.jpg",
+    image: "./pictures/gallery/culture.jpg",
     title: "Converges of Islam and Batswana Culture",
     description:
       "A fundamental value in Islam is the recognition that it does not seek to eliminate culture, but rather to refine it, preserving what aligns with Islamic ethics and setting aside what conflicts with them. This principle is particularly vital for new Muslims, who often come from non-Islamic background .",
