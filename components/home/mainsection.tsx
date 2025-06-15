@@ -1,6 +1,6 @@
 import React from "react";
 import { articles } from "@/data/data";
-import { Button } from "../ui/button";
+
 import {
   Card,
   CardTitle,
@@ -9,7 +9,8 @@ import {
   CardFooter,
   CardHeader,
 } from "../ui/card";
-import Link from "next/link";
+
+import { GiCard4Clubs } from "react-icons/gi";
 
 export default async function MainSection() {
   return (
@@ -32,6 +33,7 @@ export default async function MainSection() {
                     <CardTitle className="text-center m-2">{title}</CardTitle>
                     <CardDescription>{article.description}</CardDescription>
                   </CardHeader>
+                  <CardContent className=""></CardContent>
 
                   <CardFooter className="flex justify-center"></CardFooter>
                 </Card>

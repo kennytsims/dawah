@@ -5,9 +5,9 @@ import {
   CardHeader,
   CardTitle,
   CardContent,
-  CardFooter,
   CardDescription,
 } from "../ui/card";
+import Image from "next/image";
 export default function Section() {
   return (
     <section className=" h-[120rem] lg:h-[45rem] w-full">
@@ -18,7 +18,13 @@ export default function Section() {
               className=" w-[23rem] flex  shadow-2xl   items-center justify-center"
               key={bond.id}
             >
-              <img src={bond.image} height={300} width={300} className="" />
+              <Image
+                src={bond.image}
+                height={300}
+                width={300}
+                alt="bonds"
+                className=""
+              />
               <CardTitle>{bond.title}</CardTitle>
               <CardDescription className="mx-5">
                 {bond.description}

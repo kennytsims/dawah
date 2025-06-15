@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "next/image";
+
 import { FaPhone } from "react-icons/fa6";
 import { FaEnvelope } from "react-icons/fa6";
 import { FaFacebookF } from "react-icons/fa6";

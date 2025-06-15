@@ -1,8 +1,6 @@
 import React from "react";
 import { IoIosPeople } from "react-icons/io";
-import { FaPeopleGroup } from "react-icons/fa6";
 import { FaRegHandshake } from "react-icons/fa";
-import { CgCommunity } from "react-icons/cg";
 import { FaUsersGear } from "react-icons/fa6";
 
 export default function Subsection() {

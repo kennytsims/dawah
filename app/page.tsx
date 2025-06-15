@@ -4,7 +4,6 @@ import MainSection from "@/components/home/mainsection";
 import Section from "@/components/home/section";
 import Subsection from "@/components/home/subsection";
 import Patners from "@/components/home/patners";
-import News from "@/components/home/news";
 
 export default function Home() {
   return (
