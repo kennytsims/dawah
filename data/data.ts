@@ -107,7 +107,8 @@ export const articles = [
 export const bonds = [
   {
     id: 1,
-    image: "/pictures/gallery/brotherhood.jpg",
+    image:
+      "https://kennytsims.github.io/dawah/pictures/gallery/brotherhood.jpg",
     title: "Nurturing  Brotherhood and Sisterhood",
     description:
       "One of the conerstones of a strong community is unity. Allah instucts us to be united.Narturing  brotherhood and sisterhood through regular interations in social events and working together on community projects will fostering a sense of love,trust.",
@@ -122,7 +123,7 @@ export const bonds = [
   },
   {
     id: 3,
-    image: "/pictures/gallery/culture.jpg",
+    image: "https://kennytsims.github.io/dawah/pictures/gallery/culture.jpg",
     title: "Converges of Islam and Batswana Culture",
     description:
       "A fundamental value in Islam is the recognition that it does not seek to eliminate culture, but rather to refine it, preserving what aligns with Islamic ethics and setting aside what conflicts with them. This principle is particularly vital for new Muslims, who often come from non-Islamic background .",
