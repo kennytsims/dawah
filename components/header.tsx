@@ -16,7 +16,7 @@ export default function Header() {
             cultivating Islam in heart of the people is what will make the
             country blossom.
           </p>
-          <div className="bg-[url('/pictures/gallery/eidSalah.jpg')] h-[23rem] max-w-[30rem]  relative lg:left-[60rem] bg-cover bg-no-repeat bg-center shadow-2xl m-5">
+          <div className="bg-[url('https://kennytsims.github.io/dawah//pictures/gallery/eidSalah.jpg')] h-[23rem] max-w-[30rem]  relative lg:left-[60rem] bg-cover bg-no-repeat bg-center shadow-2xl m-5">
             <h1 className="bg-black h-10 opacity-[0.6] w-full text-white text-2xl ">
               Unity through Festives such as Eid-ul-Fitr
             </h1>
