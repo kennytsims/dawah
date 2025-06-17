@@ -114,7 +114,8 @@ export const bonds = [
   },
   {
     id: 2,
-    image: "/pictures/gallery/islamicMarriage.jpg",
+    image:
+      "https://kennytsims.github.io/dawah/pictures/gallery/islamicMarriage.jpg",
     title: "Building community through Islamic Marriage",
     description:
       "It is the sunnah to have early marriages.Creating an environment for ease of getting married especially among young people is vital. It helps build a strong, morally grounded community. It also serves as a preventative measure, protecting the youth from the moral challenges and harmful influences of modern society.",

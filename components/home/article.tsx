@@ -21,7 +21,7 @@ export default function Article() {
           </div>
           <div className="m-10">
             <Image
-              src="/pictures/gallery/gameEid.jpg"
+              src="https://kennytsims.github.io/dawah/pictures/gallery/gameEid.jpg"
               alt="eid"
               height={1000}
               width={1000}
