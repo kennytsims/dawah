@@ -22,7 +22,7 @@ export default function Navbar() {
       <div className="">
         <Link href="/">
           <Image
-            src={"/pictures/logo.jpg"}
+            src={"./pictures/logo.jpg"}
             width={100}
             height={100}
             alt="logo"
